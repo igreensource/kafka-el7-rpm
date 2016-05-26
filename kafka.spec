@@ -1,6 +1,6 @@
 %define __jar_repack 0
 %define debug_package %{nil}
-%define _prefix      /opt
+%define _prefix      /usr/share
 %define _conf_dir    %{_sysconfdir}/kafka
 %define _log_dir     %{_var}/log/kafka
 %define _data_dir    %{_sharedstatedir}/kafka
